@@ -52,3 +52,7 @@ Ascend is a modern personal journaling and self-reflection application built wit
 
 
 ---
+
+## Live Demo
+
+https://sharan-zona.github.io/Ascend/
