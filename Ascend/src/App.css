@@ -1,14 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
 .container {
   display: flex;
   width: 100vw;
   height: 100vh;
 }
 
+/* ------left side------ */
 .left {
   flex: 1;
-  border-right: 1px solid white;
+  border-right: 1px solid rgb(45, 18, 113);
+  background-color: #002530;
+
+  background-image: url('./assets/pattern.png');
+  background-size: 300px;
+  background-blend-mode: overlay; 
 }
 
+#Heading {
+  font-family: 'Kalam', cursive;
+  font-size: 7rem;
+  color: rgb(255, 254, 254);
+  text-align: center;
+  margin-top: 45vh;
+}
+
+#des {
+  font-size: 1.5rem;
+  color: rgb(223, 211, 211);
+  text-align: center;
+  margin-top: 2rem;
+}
+/* ------left side------ */
+
+/* ------right side------ */
 .right {
   flex: 1;
+  background: #ffffff;
 }
+/* ------right side------ */
